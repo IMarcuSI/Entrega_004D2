@@ -1,0 +1,7 @@
+{
+  "name": "AppDouc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
