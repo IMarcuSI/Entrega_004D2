@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Storage } from '@ionic/storage-angular';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class HomePage implements OnInit {
 
   mensaje: string = "";
-  constructor(private rutaActiva : ActivatedRoute) { 
+  constructor(private rutaActiva : ActivatedRoute, private storage: Storage) { 
     this.rutaActiva.queryParams.subscribe(params=>{
       if(params['rutUsuario']){
         this.mensaje = params['rutUsuario'];
@@ -22,4 +23,9 @@ export class HomePage implements OnInit {
 
   }
 
+
+  async verStorage(){
+    let rut = await this.storage.get("rut")
+    console.log("nombre guardado"+ rut)
+  }
 }

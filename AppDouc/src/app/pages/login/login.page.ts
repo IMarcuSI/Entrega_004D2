@@ -33,7 +33,8 @@ export class LoginPage implements OnInit {
 
     this.router.navigate(["/home"] ,datosEnviar)
 
-
+    this.storage.get(this.formlogin.rut)
+    this.storage.get(this.formlogin.password)
 
   }
 }
