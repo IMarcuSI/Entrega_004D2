@@ -30,10 +30,15 @@ const routes: Routes = [
     loadChildren: () => import('./pages/not-found/not-found.module').then( m => m.NotFoundPageModule)
   },
   {
+    path: 'cambiopass',
+    loadChildren: () => import('./pages/cambiopass/cambiopass.module').then( m => m.CambiopassPageModule)
+  },
+  {
     path: '**',
     redirectTo: 'not-found',
     pathMatch: 'full'
   },
+
 ];
 
 @NgModule({
