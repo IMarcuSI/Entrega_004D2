@@ -37,4 +37,7 @@ export class LoginPage implements OnInit {
     this.storage.get(this.formlogin.password)
 
   }
+
+
+
 }
