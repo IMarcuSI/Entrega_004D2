@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { pagesProtegidoGuard } from './guards/pages-protegido.guard';
+import { PagesContenidoGuard } from './guards/pages-protegido.guard';
 
 const routes: Routes = [
   {
@@ -18,12 +18,14 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule),
-    canActivate : [pagesProtegidoGuard]
+    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule),
+    canActivate: [PagesContenidoGuard] 
   },
+
   {
     path: 'registro',
-    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule)
+    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule),
+    canActivate: [PagesContenidoGuard] 
   },
   {
     path: 'not-found',
@@ -48,3 +50,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
