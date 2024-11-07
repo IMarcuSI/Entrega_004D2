@@ -25,7 +25,7 @@ export class HomePage implements OnInit {
 
 
   async verStorage(){
-    let rut = await this.storage.get("rut")
-    console.log("nombre guardado"+ rut)
+    let nombre = await this.storage.get("nombreUsuario")
+    console.log("nombre guardado"+ nombre)
   }
 }

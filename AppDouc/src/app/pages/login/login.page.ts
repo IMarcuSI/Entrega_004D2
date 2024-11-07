@@ -36,6 +36,9 @@ export class LoginPage implements OnInit {
     this.storage.get(this.formlogin.rut)
     this.storage.get(this.formlogin.password)
 
+    this.storage.set("nombreUsuario","nmbregenerico1")
+    
+
   }
 
 
