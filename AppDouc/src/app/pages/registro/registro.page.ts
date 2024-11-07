@@ -16,6 +16,7 @@ export class RegistroPage implements OnInit {
 
 
   formlogin = {
+    nombre:"",
     rut:"",
     correo:"",
     password:""
@@ -23,6 +24,7 @@ export class RegistroPage implements OnInit {
 
 
   Registrarse(){
+    console.log("nombre"+ this.formlogin.nombre)
     console.log("rut"+ this.formlogin.rut)
     console.log("correo"+ this.formlogin.rut)
     console.log("password"+ this.formlogin.password)
@@ -31,8 +33,9 @@ export class RegistroPage implements OnInit {
       queryParams : {rutUsuario: this.formlogin.rut}
     }
 
-    this.router.navigate(["/home"] ,datosEnviar)
+    this.router.navigate(["/login"] ,datosEnviar)
 
+    this.storage.get(this.formlogin.nombre)
     this.storage.get(this.formlogin.rut)
     this.storage.get(this.formlogin.correo)
     this.storage.get(this.formlogin.password)
