@@ -5,20 +5,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-
+  private apiUrl = 'https://dog.ceo/api/breeds/image/random';
   constructor(private http: HttpClient) { }
-
-  obtenerAsesores(){
-
-  }
-  crearAsesores(){
-    
-  }
-  modificarrAsesores(){
-    
-  }
-  eliminarAsesores(){
-    
-  }
-
+  getPost() {
+    return this.http.get(`${this.apiUrl}`);
+    }
+ createPost(post: any) {
+return this.http.post(this.apiUrl, post);
+}
 }

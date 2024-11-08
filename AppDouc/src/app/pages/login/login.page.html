@@ -1,24 +1,23 @@
 <ion-header [translucent]="true">
-  <ion-toolbar class="colornegro">
-    <ion-title>login</ion-title>
-  </ion-toolbar>
+
+
+    <ion-card-title  class="custom-title" >RegistrApp</ion-card-title>
+
+
 </ion-header>
 <ion-content>
   <ion-img src="assets/img/login.svg" ></ion-img>
   <ion-item>
     <ion-label position="floating"></ion-label>
-    <ion-input [(ngModel)]="formlogin.rut" placeholder="Ingrese rut"></ion-input>
+    <ion-input  [(ngModel)]="formlogin.rut"  class="custom-input" placeholder="Ingrese RUT"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating"></ion-label>
-    <ion-input [(ngModel)]="formlogin.password" type="password" placeholder="Ingrese contraseña"></ion-input>
+    <ion-input [(ngModel)]="formlogin.password" class="custom-input" type="password" text="center" placeholder="Ingrese Contraseña"></ion-input>
   </ion-item>
-  <ion-item>
-    <ion-button (click)="iniciarSesion()" expand="block" fill="clear" size="default" >inicar sesion</ion-button>
-  </ion-item>
+  <ion-button (click)="iniciarSesion()" expand="block" class="custom-button-b" type="dark" size="large" shape="full" color="dark"  >Iniciar sesion</ion-button>
   
-  <ion-button [routerLink]="['/password']" shape="block" fill="clear" >Olvidaste tu contraseña</ion-button>
-  
+  <ion-button [routerLink]="['/password']" size="large" class="custom-button" shape="full" border-color="black" color="warning" >Olvidaste tu contraseña</ion-button>
+  <ion-button [routerLink]="['/registro']" shape="full" class="custom-button" size="large"  fill="outline">Registrarse</ion-button>
 </ion-content>  
-<ion-button [routerLink]="['/registro']" shape="block"  fill="clear">Registrarse</ion-button>

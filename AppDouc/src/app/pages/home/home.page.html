@@ -1,9 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>home {{mensaje}}</ion-title>
+    <ion-title class="custom-title-a">Bienvenido </ion-title>
+
   </ion-toolbar>
+  <ion-card-header><ion-title class="custom-title-b">    {{mensaje2}}  </ion-title></ion-card-header>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-button (click)="verStorage">Ver Storage</ion-button>
+  
+<ion-item-divider>
+  <ion-label class="custom-label">Rut :{{mensaje}}</ion-label>
+</ion-item-divider>
+<ion-item-divider>
+  <ion-label class="custom-label">Acuerdese de pasear a su perro</ion-label>
+</ion-item-divider>
+
+
+<ion-item-divider *ngFor="let post of posts"> <ion-img [src]="post"></ion-img> </ion-item-divider>
+
 </ion-content>

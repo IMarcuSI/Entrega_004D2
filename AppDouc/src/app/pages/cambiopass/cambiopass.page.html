@@ -1,11 +1,16 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>successful</ion-title>
+    <ion-title  class="custom-title">Successful</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content >
-  <ion-img src="assets/img/confirmado.svg" ></ion-img>
-  <ion-title>Correo enviado</ion-title>
-  <ion-button [routerLink]="['/login']" shape="block" >Login</ion-button>
+<ion-content [fullscreen]="true">
+  <ion-item-divider>
+    <ion-img src="assets/img/confirmado.svg" ></ion-img>
+  </ion-item-divider>
+  <ion-item>
+    <ion-title class="custom-input">Correo enviado</ion-title>
+  </ion-item>
+ 
+  <ion-button [routerLink]="['/login']" class="custom-button" size="large" shape="block" >Login</ion-button>
 </ion-content> 

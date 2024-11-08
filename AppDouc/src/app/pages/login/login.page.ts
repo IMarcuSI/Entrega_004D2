@@ -34,5 +34,8 @@ export class LoginPage implements OnInit {
       }
 
       this.router.navigate(["/home"], datosEnviar);
-    }}
+    } else {
+      this.router.navigate(["/login"]);
+    }
+  }
 }
