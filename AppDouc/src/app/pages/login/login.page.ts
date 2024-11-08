@@ -10,37 +10,29 @@ import { Storage } from '@ionic/storage-angular';
 export class LoginPage implements OnInit {
 
   formlogin = {
-    rut:"",
-    password:""
+    rut: "",
+    password: ""
   }
 
-  constructor(private router: Router, private storage: Storage) { 
+  constructor(private router: Router, private storage: Storage) { }
 
-  }
-
-   async ngOnInit() {
+  async ngOnInit() {
     await this.storage.create();
   }
 
-
-  inicarSesion(){
-    console.log("rut"+ this.formlogin.rut)
-    console.log("password"+ this.formlogin.password)
+  async iniciarSesion() {
+    console.log("rut: " + this.formlogin.rut);
+    console.log("password: " + this.formlogin.password);
     
-    let datosEnviar: NavigationExtras ={
-      queryParams : {rutUsuario: this.formlogin.rut}
-    }
-
-    this.router.navigate(["/home"] ,datosEnviar)
-
-    this.storage.get(this.formlogin.rut)
-    this.storage.get(this.formlogin.password)
-
-    this.storage.set("nombreUsuario","nmbregenerico1")
+    const user = await this.storage.get(this.formlogin.rut);
     
+    if (user.password === this.formlogin.password) {
+      console.log("Autenticación exitosa");
 
-  }
+      let datosEnviar: NavigationExtras = {
+        queryParams: { rutUsuario: this.formlogin.rut }
+      }
 
-
-
+      this.router.navigate(["/home"], datosEnviar);
+    }}
 }
