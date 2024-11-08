@@ -16,8 +16,8 @@
     <ion-label position="floating"></ion-label>
     <ion-input [(ngModel)]="formlogin.password" class="custom-input" type="password" text="center" placeholder="Ingrese Contraseña"></ion-input>
   </ion-item>
-  <ion-button (click)="iniciarSesion()" expand="block" class="custom-button-b" type="dark" size="large" shape="full" color="dark"  >Iniciar sesion</ion-button>
+  <ion-button (click)="iniciarSesion()" expand="block" class="custom-button-b" type="dark" size="large" shape="full" color="dark"  >Ingresar</ion-button>
   
-  <ion-button [routerLink]="['/password']" size="large" class="custom-button" shape="full" border-color="black" color="warning" >Olvidaste tu contraseña</ion-button>
+  <ion-button [routerLink]="['/password']" size="large" class="custom-button" shape="full" border-color="black" color="warning" >Recuperar contraseña</ion-button>
   <ion-button [routerLink]="['/registro']" shape="full" class="custom-button" size="large"  fill="outline">Registrarse</ion-button>
 </ion-content>  

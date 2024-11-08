@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Storage } from '@ionic/storage-angular';
 import { ApiService } from '../../servicios/api.service';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
@@ -23,8 +24,15 @@ export class HomePage implements OnInit {
   async ngOnInit() {
     await this.storage.create();
     this.apiService.getPost().subscribe((data: any) => {
-      this.posts.push(data.message); // Assuming the API returns { message: 'URL' }
+      this.posts.push(data.message); 
     });
+  }
+
+  async clearStorage() {
+    await this.storage.clear();
+    console.log('Todos los usuarios han sido borrados del almacenamiento.');
+    this.mensaje2 = ""; 
+    this.mensaje = ""; 
   }
 
   async loadUserName(rutUsuario: string) {
@@ -36,3 +44,6 @@ export class HomePage implements OnInit {
     }
   }
 }
+
+
+

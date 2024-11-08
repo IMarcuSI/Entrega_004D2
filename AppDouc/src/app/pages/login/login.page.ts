@@ -26,8 +26,9 @@ export class LoginPage implements OnInit {
     
     const user = await this.storage.get(this.formlogin.rut);
     
-    if (user.password === this.formlogin.password) {
-      console.log("Autenticación exitosa");
+    if (user.password === this.formlogin.password && user.password !== ""  ) {
+
+      await this.storage.set('currentUser', user);
 
       let datosEnviar: NavigationExtras = {
         queryParams: { rutUsuario: this.formlogin.rut }
