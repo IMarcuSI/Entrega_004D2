@@ -12,7 +12,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, IonicStorageModule.forRoot(),HttpClientModule],
+  imports: [BrowserModule, IonicModule.forRoot(
+  {
+    rippleEffect: false,
+    mode: "md",
+    animated: true,
+  }
+
+  
+  ), AppRoutingModule, IonicStorageModule.forRoot(),HttpClientModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
