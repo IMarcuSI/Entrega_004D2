@@ -1,0 +1,10 @@
+#Thu Nov 21 22:41:03 CLST 2024
+base.0=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\10\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=10/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
