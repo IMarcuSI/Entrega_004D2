@@ -38,14 +38,26 @@ const routes: Routes = [
     loadChildren: () => import('./pages/cambiopass/cambiopass.module').then( m => m.CambiopassPageModule)
   },
   {
-    path: '**',
-    redirectTo: 'not-found',
-    pathMatch: 'full'
-  },  {
     path: 'qr',
     loadChildren: () => import('./pages/qr/qr.module').then( m => m.QRPageModule)
   },
-
+  {
+    path: 'profesor-qr',
+    loadChildren: () => import('./pages/profesor-qr/profesor-qr.module').then( m => m.ProfesorQRPageModule)
+  },
+  {
+    path: 'vistas',
+    loadChildren: () => import('./pages/vistas/vistas.module').then( m => m.VistasPageModule)
+  },
+  {
+    path: 'registro-profesor',
+    loadChildren: () => import('./pages/registro-profesor/registro-profesor.module').then( m => m.RegistroProfesorPageModule)
+  },
+  {
+    path: '**',
+    redirectTo: 'not-found',
+    pathMatch: 'full'
+  },
 
 ];
 
