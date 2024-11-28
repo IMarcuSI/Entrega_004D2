@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <merger version="3"><dataSet config="androidTest" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pan_c\Documents\GitHub\Entrega_004D2\AppDouc\android\app\src\androidTest\jniLibs"/></dataSet><dataSet config="androidTestDebug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pan_c\Documents\GitHub\Entrega_004D2\AppDouc\android\app\src\androidTestDebug\jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="androidTest" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\androidTest\jniLibs"/></dataSet><dataSet config="androidTestDebug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\androidTestDebug\jniLibs"/></dataSet></merger>
+>>>>>>> Stashed changes
