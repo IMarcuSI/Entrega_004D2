@@ -1,23 +1,32 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title class="custom-title-a">Bienvenido </ion-title>
-
+    <ion-title class="custom-title-a">Bienvenido</ion-title>
   </ion-toolbar>
-  <ion-card-header><ion-title class="custom-title-b">    {{mensaje2}}  </ion-title></ion-card-header>
+  <ion-card-header>
+    <ion-title class="custom-title-b">{{mensaje2}}</ion-title>
+  </ion-card-header>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content>
+  <ion-item-divider>
+    <ion-label class="custom-label">Rut: {{mensaje}}</ion-label>
+  </ion-item-divider>
   
-<ion-item-divider>
-  <ion-label class="custom-label">Rut :{{mensaje}}</ion-label>
-</ion-item-divider>
-<!--<ion-button (click)="clearStorage()">Borrar Todos los Usuarios</ion-button>-->
+  <ion-item-divider>
+    <ion-label class="custom-label">Nombre: {{user.nombre}}</ion-label>
+  </ion-item-divider>
 
-<ion-item-divider>
-  <ion-label class="custom-label">Acuerdese de pasear a su perro</ion-label>
-</ion-item-divider>
+  <ion-item-divider>
+    <ion-label class="custom-label">Correo: {{user.correo}}</ion-label>
+  </ion-item-divider>
 
+  <ion-item-divider>
+    <ion-label class="custom-label">Contraseña: {{user.password}}</ion-label>
+  </ion-item-divider>
 
-<ion-item-divider *ngFor="let post of posts"> <ion-img [src]="post"></ion-img> </ion-item-divider>
-
+  <ion-button expand="full" color="danger" (click)="clearStorage()">
+    Borrar Todos los Usuarios
+  </ion-button>
 </ion-content>
+
+<!--<ion-button (click)="clearStorage()">Borrar Todos los Usuarios</ion-button>-->

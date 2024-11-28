@@ -9,11 +9,15 @@ import { ApiService } from '../../servicios/api.service';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
-  posts: string[] = [];
   mensaje: string = "";
   mensaje2: string = "";
+  user: any = {};
 
-  constructor(private rutaActiva: ActivatedRoute, private storage: Storage,private apiService: ApiService) {
+  constructor(
+    private rutaActiva: ActivatedRoute, 
+    private storage: Storage, 
+    private apiService: ApiService
+  ) {
     this.rutaActiva.queryParams.subscribe(params => {
       if (params['rutUsuario']) {
         this.mensaje = params['rutUsuario'];
@@ -21,29 +25,26 @@ export class HomePage implements OnInit {
       }
     });
   }
+
   async ngOnInit() {
     await this.storage.create();
-    this.apiService.getPost().subscribe((data: any) => {
-      this.posts.push(data.message); 
-    });
-  }
-
-  async clearStorage() {
-    await this.storage.clear();
-    console.log('Todos los usuarios han sido borrados del almacenamiento.');
-    this.mensaje2 = ""; 
-    this.mensaje = ""; 
   }
 
   async loadUserName(rutUsuario: string) {
     const user = await this.storage.get(rutUsuario);
     if (user) {
+      this.user = user;
       this.mensaje2 = user.nombre;
     } else {
       console.log('Usuario no encontrado en el almacenamiento.');
     }
   }
+
+  async clearStorage() {
+    await this.storage.clear();
+    console.log('Todos los usuarios han sido borrados del almacenamiento.');
+    this.mensaje2 = "";
+    this.mensaje = "";
+    this.user = {};
+  }
 }
-
-
-
