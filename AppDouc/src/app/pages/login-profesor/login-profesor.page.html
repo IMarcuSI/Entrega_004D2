@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-buttons slot="start">
+    <ion-back-button>a</ion-back-button>
+  </ion-buttons>
+
+    <ion-card-title  class="custom-title" >RegistrApp</ion-card-title>
+
+
+</ion-header>
+<ion-content>
+  <ion-img src="assets/img/login.svg" ></ion-img>
+  <ion-item>
+    <ion-label position="floating"></ion-label>
+    <ion-input  [(ngModel)]="formlogin.rut_profesor"  class="custom-input" placeholder="Ingrese RUT"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"></ion-label>
+    <ion-input [(ngModel)]="formlogin.password_profesor" class="custom-input" type="password" text="center" placeholder="Ingrese Contraseña"></ion-input>
+  </ion-item>
+  <ion-button (click)="iniciarSesion()" expand="block" class="custom-button-b" type="dark" size="large" shape="full"   >Ingresar</ion-button>
+  
+  <ion-button [routerLink]="['/password']" size="large" class="custom-button" shape="full" border-color="black" >Recuperar contraseña</ion-button>
+</ion-content>  

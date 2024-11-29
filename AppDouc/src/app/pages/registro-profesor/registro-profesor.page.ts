@@ -38,6 +38,6 @@ export class RegistroProfesorPage implements OnInit {
       queryParams: { rutUsuario: this.formlogin.rut_profesor }
     };
 
-    this.router.navigate(["/login"], datosEnviar);
+    this.router.navigate(["/login-profesor"], datosEnviar);
   }
 }

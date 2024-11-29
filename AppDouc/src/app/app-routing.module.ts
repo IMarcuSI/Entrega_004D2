@@ -6,7 +6,7 @@ import { mguardGuard } from './guards/mguard.guard';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'vistas',
     pathMatch: 'full'
   },
   {
@@ -54,10 +54,16 @@ const routes: Routes = [
     loadChildren: () => import('./pages/registro-profesor/registro-profesor.module').then( m => m.RegistroProfesorPageModule)
   },
   {
+    path: 'login-profesor',
+    loadChildren: () => import('./pages/login-profesor/login-profesor.module').then( m => m.LoginProfesorPageModule)
+  },
+  {
     path: '**',
     redirectTo: 'not-found',
     pathMatch: 'full'
   },
+
+
 
 ];
 
