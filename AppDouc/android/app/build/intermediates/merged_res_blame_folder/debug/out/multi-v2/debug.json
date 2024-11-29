@@ -1613,6 +1613,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,5,4,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,214,156,100",
+                        "endColumns": "44,62,57,55",
+                        "endOffsets": "95,272,209,151"
+                    },
+                    "to": {
+                        "startLines": "343,369,371,374",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "22180,25069,25212,25394",
+                        "endColumns": "44,62,57,55",
+                        "endOffsets": "22220,25127,25265,25445"
+                    }
+                },
+                {
                     "source": "C:\\Users\\kirto\\.gradle\\caches\\transforms-3\\a115cd0868d6809f9252eb725a2422b0\\transformed\\play-services-basement-18.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -1627,6 +1644,25 @@
                         "startOffsets": "20093,23776",
                         "endColumns": "67,166",
                         "endOffsets": "20156,23938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "4,11,18",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "93,413,664",
+                        "endLines": "9,15,20",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "407,657,810"
+                    },
+                    "to": {
+                        "startLines": "380,386,391",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "25892,26176,26425",
+                        "endLines": "385,390,393",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "26171,26420,26571"
                     }
                 },
                 {
@@ -1646,25 +1682,6 @@
                         "endLines": "10,35,36,49,50,85,86,188,189,190,191,192,193,194,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,276,277,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,301,314,344,345,346,347,348,349,350,373,1755,1759,1760,1764,1765,1935,1936,2590,2628,2797,2818,2860,2866",
                         "endColumns": "59,71,87,64,65,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,66,71,68,68,73,71,87,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
                         "endOffsets": "567,2000,2088,3113,3179,5560,5623,12548,12616,12688,12758,12819,12893,12966,13811,13872,13934,13998,14060,14121,14189,14289,14349,14415,14488,14557,14614,14666,14728,15767,15843,15908,15967,16026,16086,16146,16206,16266,16326,16386,16446,16506,16566,16626,16685,16745,16805,16865,16925,16985,17045,17105,17165,17225,17285,17344,17404,17464,17523,17582,17641,17700,17759,17818,18190,18225,18629,18692,18747,18805,18863,18924,18987,19044,19095,19145,19206,19263,19329,19363,19398,19474,20226,22287,22359,22428,22497,22571,22643,22731,25389,117068,117269,117379,117580,117709,130584,130651,152128,153799,162186,162867,163868,164035"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "4,11,18",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "93,413,664",
-                        "endLines": "9,15,20",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "407,657,810"
-                    },
-                    "to": {
-                        "startLines": "380,386,391",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "25892,26176,26425",
-                        "endLines": "385,390,393",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "26171,26420,26571"
                     }
                 },
                 {
@@ -1701,6 +1718,25 @@
                         "endLines": "2069,2075,2085,3182,3186",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "135261,135439,135723,173787,173914"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\node_modules\\@capacitor\\android\\capacitor\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,175,251,331,598",
+                        "endLines": "2,3,4,5,12",
+                        "endColumns": "74,75,79,79,22",
+                        "endOffsets": "170,246,326,406,708"
+                    },
+                    "to": {
+                        "startLines": "51,52,53,370,3373",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3184,3259,3335,25132,181674",
+                        "endLines": "51,52,53,370,3375",
+                        "endColumns": "74,75,79,79,22",
+                        "endOffsets": "3254,3330,3410,25207,181784"
                     }
                 },
                 {
@@ -1812,23 +1848,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
-                    },
-                    "to": {
-                        "startLines": "72",
-                        "startColumns": "4",
-                        "startOffsets": "4767",
-                        "endColumns": "56",
-                        "endOffsets": "4819"
-                    }
-                },
-                {
                     "source": "C:\\Users\\kirto\\.gradle\\caches\\transforms-3\\b7681978623fb5a34dc59f8ae14b69b9\\transformed\\fragment-1.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -1862,25 +1881,6 @@
                         "startOffsets": "18426,19554",
                         "endColumns": "41,59",
                         "endOffsets": "18463,19609"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\node_modules\\@capacitor\\android\\capacitor\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,175,251,331,598",
-                        "endLines": "2,3,4,5,12",
-                        "endColumns": "74,75,79,79,22",
-                        "endOffsets": "170,246,326,406,708"
-                    },
-                    "to": {
-                        "startLines": "51,52,53,370,3373",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "3184,3259,3335,25132,181674",
-                        "endLines": "51,52,53,370,3375",
-                        "endColumns": "74,75,79,79,22",
-                        "endOffsets": "3254,3330,3410,25207,181784"
                     }
                 },
                 {
@@ -1939,20 +1939,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
-                        "startLines": "2,5,4,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,214,156,100",
-                        "endColumns": "44,62,57,55",
-                        "endOffsets": "95,272,209,151"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "343,369,371,374",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "22180,25069,25212,25394",
-                        "endColumns": "44,62,57,55",
-                        "endOffsets": "22220,25127,25265,25445"
+                        "startLines": "72",
+                        "startColumns": "4",
+                        "startOffsets": "4767",
+                        "endColumns": "56",
+                        "endOffsets": "4819"
                     }
                 }
             ]

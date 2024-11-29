@@ -11,18 +11,18 @@
 11    <!-- Permissions -->
 12    <!-- To get access to the camera. -->
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:40:5-65
-13-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:40:22-62
+13-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:40:5-65
+13-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:40:22-62
 14    <!-- To get access to the flashlight. -->
 15    <uses-permission android:name="android.permission.FLASHLIGHT" />
-15-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:42:5-68
-15-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:42:22-66
+15-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:42:5-68
+15-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:42:22-66
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:43:5-67
-16-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:43:22-64
+16-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:43:5-67
+16-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:43:22-64
 17    <uses-permission android:name="android.permission.VIBRATE" />
-17-->[:capacitor-haptics] C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-66
-17-->[:capacitor-haptics] C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-63
+17-->[:capacitor-haptics] C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-66
+17-->[:capacitor-haptics] C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-63
 18
 19    <permission
 19-->[androidx.core:core:1.12.0] C:\Users\kirto\.gradle\caches\transforms-3\4f7b0d764f8b5d0d84c4d0344e1adc27\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -40,64 +40,64 @@
 25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\kirto\.gradle\caches\transforms-3\42ad966917ed382282d3f1384ce7e092\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
 26
 27    <application
-27-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:4:5-36:19
+27-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:4:5-36:19
 28        android:allowBackup="true"
-28-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:5:9-35
+28-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:5:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.12.0] C:\Users\kirto\.gradle\caches\transforms-3\4f7b0d764f8b5d0d84c4d0344e1adc27\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 30        android:debuggable="true"
 31        android:extractNativeLibs="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:6:9-43
+32-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:6:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:7:9-41
+33-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:7:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:8:9-54
+34-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:8:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:9:9-35
+35-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:9:9-35
 36        android:theme="@style/AppTheme" >
-36-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:10:9-40
+36-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:10:9-40
 37        <activity
-37-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:12:9-25:20
+37-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:12:9-25:20
 38            android:name="io.ionic.starter.MainActivity"
-38-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:14:13-41
+38-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:14:13-41
 39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
-39-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:13:13-129
+39-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:13:13-129
 40            android:exported="true"
-40-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:18:13-36
+40-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:18:13-36
 41            android:label="@string/title_activity_main"
-41-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:15:13-56
+41-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:15:13-56
 42            android:launchMode="singleTask"
-42-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:17:13-44
+42-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:17:13-44
 43            android:theme="@style/AppTheme.NoActionBarLaunch" >
-43-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:16:13-62
+43-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:16:13-62
 44            <intent-filter>
-44-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:20:13-23:29
+44-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:20:13-23:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:21:17-69
-45-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:21:25-66
+45-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:21:17-69
+45-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:21:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:22:17-77
-47-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:22:27-74
+47-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:22:17-77
+47-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:22:27-74
 48            </intent-filter>
 49        </activity>
 50
 51        <provider
 52            android:name="androidx.core.content.FileProvider"
-52-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:28:13-62
+52-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:28:13-62
 53            android:authorities="io.ionic.starter.fileprovider"
-53-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:29:13-64
+53-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:29:13-64
 54            android:exported="false"
-54-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:30:13-37
+54-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:30:13-37
 55            android:grantUriPermissions="true" >
-55-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:31:13-47
+55-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:31:13-47
 56            <meta-data
-56-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:32:13-34:64
+56-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:32:13-34:64
 57                android:name="android.support.FILE_PROVIDER_PATHS"
-57-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:33:17-67
+57-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:33:17-67
 58                android:resource="@xml/file_paths" />
-58-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:34:17-51
+58-->C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\AndroidManifest.xml:34:17-51
 59        </provider>
 60        <!--
 61        This activity is an invisible delegate activity to start scanner activity

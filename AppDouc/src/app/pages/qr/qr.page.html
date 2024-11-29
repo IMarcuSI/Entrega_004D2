@@ -4,8 +4,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-
+<ion-content >
+  <ion-item-divider>
+    <ion-label >Bienvenido: {{user.nombre}}</ion-label>
+  </ion-item-divider>
+  <ion-content>
+    <ion-item-divider>
+      <ion-label >Rut: {{user.rut}}</ion-label>
+    </ion-item-divider>
+    
+  
+    <ion-item-divider>
+      <ion-label >Registro: {{mensaje2}}</ion-label>
+    </ion-item-divider>
+  
+    <ion-item-divider>
+      <ion-label >Correo: {{user.correo}}</ion-label>
+    </ion-item-divider>
+  
 </ion-content>
 <ion-button  (click)="startScan()" class="submit" expand="block">
   Scan

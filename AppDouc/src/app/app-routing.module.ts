@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './guards/auth.guard';
 import { mguardGuard } from './guards/mguard.guard';
+import { CanDeactivateGuard } from './guards/can-deactivate.guard';
 
 const routes: Routes = [
   {
@@ -27,6 +28,7 @@ const routes: Routes = [
   {
     path: 'registro',
     loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule),
+    
  
   },
   {
@@ -40,10 +42,14 @@ const routes: Routes = [
   {
     path: 'qr',
     loadChildren: () => import('./pages/qr/qr.module').then( m => m.QRPageModule)
+    , canActivate: [AuthGuard],
   },
   {
     path: 'profesor-qr',
-    loadChildren: () => import('./pages/profesor-qr/profesor-qr.module').then( m => m.ProfesorQRPageModule)
+    loadChildren: () => import('./pages/profesor-qr/profesor-qr.module').then( m => m.ProfesorQRPageModule),
+    canDeactivate: [CanDeactivateGuard],
+    canActivate: [AuthGuard],
+
   },
   {
     path: 'vistas',

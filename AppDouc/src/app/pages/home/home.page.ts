@@ -36,18 +36,13 @@ export class HomePage implements OnInit {
       this.user = user;
       this.mensaje2 = user.nombre;
       
-      // Enviar usuario al json-server
+   
       this.apiService.registrarUsuario({ rut: rutUsuario, ...user }).subscribe({
         next: (response: any) => {
-          console.log('Usuario registrado en json-server:', response);
         },
-        error: (error: any) => {
-          console.error('Error al registrar usuario en json-server:', error);
-        }
       });
-    } else {
-      console.log('Usuario no encontrado en el almacenamiento.');
     }
+    
   }
 
   async clearStorage() {

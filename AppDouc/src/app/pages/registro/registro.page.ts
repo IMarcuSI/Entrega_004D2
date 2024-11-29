@@ -14,7 +14,8 @@ export class RegistroPage implements OnInit {
     nombre: "",
     rut: "",
     correo: "",
-    password: ""
+    password: "",
+    registro: "ausente"
   };
 
   constructor(
@@ -28,21 +29,17 @@ export class RegistroPage implements OnInit {
   }
 
   async Registrarse() {
-    console.log("nombre: " + this.formlogin.nombre);
-    console.log("rut: " + this.formlogin.rut);
-    console.log("correo: " + this.formlogin.correo);
-    console.log("password: " + this.formlogin.password);
-
+  
     const usuario = {
       nombre: this.formlogin.nombre,
       correo: this.formlogin.correo,
-      password: this.formlogin.password
+      password: this.formlogin.password,
+      registro: this.formlogin.registro
     };
 
-    // Guarda en el almacenamiento local
+   
     await this.storage.set(this.formlogin.rut, usuario);
 
-    // Envía al json-server al mismo tiempo
     this.apiService.registrarUsuario({ rut: this.formlogin.rut, ...usuario }).subscribe({
       next: (response: any) => {
         console.log('Usuario registrado en json-server:', response);

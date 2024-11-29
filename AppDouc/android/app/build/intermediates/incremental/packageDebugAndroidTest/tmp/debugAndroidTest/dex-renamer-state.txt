@@ -1,7 +1,7 @@
-#Fri Nov 29 02:49:08 CLST 2024
-base.0=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\10\\classes.dex
+#Fri Nov 29 04:42:59 CLST 2024
+base.0=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2 (2)\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\10\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

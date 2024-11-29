@@ -28,17 +28,17 @@ io.ionic.starter.app-camera-core-1.1.0-26 C:\Users\kirto\.gradle\caches\transfor
 io.ionic.starter.app-lifecycle-runtime-2.6.1-27 C:\Users\kirto\.gradle\caches\transforms-3\df72a2f8f860ffef94040cce25609171\transformed\lifecycle-runtime-2.6.1\res
 io.ionic.starter.app-activity-1.8.0-28 C:\Users\kirto\.gradle\caches\transforms-3\e7c087e2e63ca40d4727b77d524bd515\transformed\activity-1.8.0\res
 io.ionic.starter.app-lifecycle-viewmodel-savedstate-2.6.1-29 C:\Users\kirto\.gradle\caches\transforms-3\f1d278e9cc7f2bb6532c81f7b267fbc2\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-io.ionic.starter.app-pngs-30 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\build\generated\res\pngs\debug
-io.ionic.starter.app-resValues-31 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\build\generated\res\resValues\debug
-io.ionic.starter.app-packageDebugResources-32 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-io.ionic.starter.app-packageDebugResources-33 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-io.ionic.starter.app-merged_res-34 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\build\intermediates\merged_res\debug
-io.ionic.starter.app-debug-35 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\debug\res
-io.ionic.starter.app-main-36 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\app\src\main\res
-io.ionic.starter.app-packaged_res-37 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\android\capacitor-cordova-android-plugins\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-38 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-39 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\android\capacitor\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-40 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\app\android\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-41 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-42 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\keyboard\android\build\intermediates\packaged_res\debug
-io.ionic.starter.app-packaged_res-43 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2\AppDouc\node_modules\@capacitor\status-bar\android\build\intermediates\packaged_res\debug
+io.ionic.starter.app-pngs-30 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\build\generated\res\pngs\debug
+io.ionic.starter.app-resValues-31 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\build\generated\res\resValues\debug
+io.ionic.starter.app-packageDebugResources-32 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+io.ionic.starter.app-packageDebugResources-33 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+io.ionic.starter.app-merged_res-34 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\build\intermediates\merged_res\debug
+io.ionic.starter.app-debug-35 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\debug\res
+io.ionic.starter.app-main-36 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\app\src\main\res
+io.ionic.starter.app-packaged_res-37 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\android\capacitor-cordova-android-plugins\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-38 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor-mlkit\barcode-scanning\android\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-39 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\android\capacitor\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-40 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\app\android\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-41 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\haptics\android\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-42 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\keyboard\android\build\intermediates\packaged_res\debug
+io.ionic.starter.app-packaged_res-43 C:\Users\kirto\OneDrive\Documentos\GitHub\Entrega_004D2 (2)\Entrega_004D2\AppDouc\node_modules\@capacitor\status-bar\android\build\intermediates\packaged_res\debug
