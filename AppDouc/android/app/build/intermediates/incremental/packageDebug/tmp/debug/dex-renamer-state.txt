@@ -1,16 +1,8 @@
-<<<<<<< Updated upstream
-#Thu Nov 21 22:41:03 CLST 2024
-base.0=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=C\:\\Users\\pan_c\\Documents\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-=======
-#Thu Nov 21 22:52:03 CLST 2024
+#Fri Nov 29 01:28:20 CLST 2024
 base.0=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.3=C\:\\Users\\kirto\\OneDrive\\Documentos\\GitHub\\Entrega_004D2\\AppDouc\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
->>>>>>> Stashed changes
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

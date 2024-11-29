@@ -4,11 +4,7 @@
             "outputFile": "io.ionic.starter.test.app-mergeDebugAndroidTestResources-3:/values-v28/values-v28.xml",
             "map": [
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\pan_c\\.gradle\\caches\\transforms-3\\bfef745fe0d6813a50960525dcc92f4d\\transformed\\core-1.5.0\\res\\values-v28\\values.xml",
-=======
                     "source": "C:\\Users\\kirto\\.gradle\\caches\\transforms-3\\bfef745fe0d6813a50960525dcc92f4d\\transformed\\core-1.5.0\\res\\values-v28\\values.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
