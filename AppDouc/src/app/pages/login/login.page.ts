@@ -34,7 +34,7 @@ export class LoginPage implements OnInit {
         queryParams: { rutUsuario: this.formlogin.rut }
       }
 
-      this.router.navigate(["/home"], datosEnviar);
+      this.router.navigate(["/qr"], datosEnviar);
     } else {
       this.router.navigate(["/login"]);
     }
