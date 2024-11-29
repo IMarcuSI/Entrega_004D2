@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "rut": "12345678-9",
+      "nombre": "Juan",
+      "correo": "juan@example.com",
+      "password": "password123",
+      "id": "b2c0"
+    },
+    {
+      "id": "ad19",
+      "rut": "1",
+      "nombre": "1",
+      "correo": "1",
+      "password": "1"
+    },
+    {
+      "id": "9c6a",
+      "rut": "1",
+      "nombre": "1",
+      "correo": "1",
+      "password": "1"
+    },
+    {
+      "id": "195a",
+      "rut": "2",
+      "nombre": "2",
+      "correo": "2",
+      "password": "2"
+    },
+    {
+      "id": "daa0",
+      "rut": "1",
+      "nombre": "1",
+      "correo": "1",
+      "password": "1"
+    },
+    {
+      "id": "55bc",
+      "rut": "2",
+      "nombre": "2",
+      "correo": "2",
+      "password": "2"
+    },
+    {
+      "id": "4bf5",
+      "rut": "21522622-0",
+      "nombre": "martin gutierrez",
+      "correo": "ma.gut@gmail.cl",
+      "password": "martini"
+    }
+  ]
+}
