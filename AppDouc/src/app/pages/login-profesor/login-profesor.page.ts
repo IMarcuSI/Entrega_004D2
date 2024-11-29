@@ -33,7 +33,7 @@ export class LoginProfesorPage implements OnInit {
         queryParams: { rutUsuario: this.formlogin.rut_profesor }
       }
 
-      this.router.navigate(["/home"], datosEnviar);
+      this.router.navigate(["/profesor-qr"], datosEnviar);
     } else {
       this.router.navigate(["/loginProfesor"]);
     }
