@@ -7,6 +7,12 @@
 <ion-content [fullscreen]="true">
 
 </ion-content>
-<ion-button class="submit" expand="block">
+<ion-button  (click)="startScan()" class="submit" expand="block">
   Scan
 </ion-button>
+ <ion-item class="result" *ngIf="scanResult" lines="none">
+  <ion-label> 
+    <p> Scan result</p>
+    <div>{{scanResult}}</div>
+  </ion-label>
+ </ion-item>

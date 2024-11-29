@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 import { QRPageRoutingModule } from './qr-routing.module';
 
 import { QRPage } from './qr.page';
+import { BarcodeScanner } from '@capacitor-mlkit/barcode-scanning';
+import { BarcodeScanningModalComponent } from './barcode-scanning-modal.component';
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { QRPage } from './qr.page';
     IonicModule,
     QRPageRoutingModule
   ],
-  declarations: [QRPage]
+  declarations: [QRPage, BarcodeScanningModalComponent]
 })
 export class QRPageModule {}
